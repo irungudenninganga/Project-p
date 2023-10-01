@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap'); /* font-family: 'Bubblegum Sans', cursive;  */
 
-@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');  /*font-family: 'Rochester', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');  /*  font-family: 'Rochester', cursive; */
 
 body{
     /* background-color: black; */
     margin: 0;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    
 }
   
 #parent-container{
     width: 1000px;
     /* color: rgb(20, 100, 20); */
     margin: auto auto;
-    /* background: url("./images/pexels-photo-2663362");
+    /* 
     background-color: rgb(243, 247, 247); */
 }
 #display-img{
@@ -28,11 +32,30 @@ h2 span{
     background-color: rgb(235, 192, 168);
     padding: 15px 20px;
     border-radius: 8px;
+    
+}
+.introduction{
+    
+    font-family: 'Bubblegum Sans', 'cursive' ;
+    font-size: x-large;
+    color:green ;
+}
+img{
+    width: 280px;
+    border-radius: 40px;
+}
+.more-explanantion{
+    font-family: 'Rochester', cursive; 
+    font-size: large;
+    font-weight: 600;
+    width: 400px;
+
 }
 button{
     font-family: 'Bubblegum Sans', 'cursive';
     padding: 10px 20px;
     color: green;
+    cursor: pointer;
     border-radius: 6px;
     border: 1px solid green;
 }
