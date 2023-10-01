@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');  /*  font-family: 'Rochester', cursive; */
 
 body{
-    /* background-color: black; */
+    background-color: black; 
     margin: 0;
     user-select: none;
     display: flex;
@@ -14,9 +14,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.header-span{
-    
-}
+
 #parent-container{
     width: 1000px;
     /* color: rgb(20, 100, 20); */

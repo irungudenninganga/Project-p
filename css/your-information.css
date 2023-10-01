@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap'); /* font-family: 'Bubblegum Sans', cursive;  */
+
+*{
+    font-family: 'Bubblegum Sans', cursive;
+}
+input{
+    color: green;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+button{
+    color: green;
+    font-size: larger;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+}
