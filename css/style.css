@@ -1,3 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap'); /* font-family: 'Bubblegum Sans', cursive;  */
 
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');  /*font-family: 'Rochester', cursive; */
+
+body{
+    /* background-color: black; */
+    margin: 0;
+}
+  
+#parent-container{
+    width: 1000px;
+    /* color: rgb(20, 100, 20); */
+    margin: auto auto;
+    /* background: url("./images/pexels-photo-2663362");
+    background-color: rgb(243, 247, 247); */
+}
+#display-img{
+    padding: 5px 10px;
+    font-weight: 600;
+    
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(103, 224, 103);
+}
+h2 span{
+    font-family: 'Bubblegum Sans', cursive; 
+    color: green;
+    background-color: rgb(235, 192, 168);
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+button{
+    font-family: 'Bubblegum Sans', 'cursive';
+    padding: 10px 20px;
+    color: green;
+    border-radius: 6px;
+    border: 1px solid green;
+}
